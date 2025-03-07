@@ -1,0 +1,372 @@
+[0.092s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/muhtasim/ros2_ws/wato_asd_training']
+[0.092s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/muhtasim/ros2_ws/wato_asd_training'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x725c7879cfe0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x725c7879c2c0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x725c7879c2c0>>, mixin_verb=('list',))
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.125s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/muhtasim/ros2_ws/wato_asd_training'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training) by extension 'cmake'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training) by extension 'python'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training) by extensions ['python_setup_py']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training) by extension 'python_setup_py'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/config) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/config) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/config) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/config) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/config) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/config) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/config) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/config) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/config) by extension 'ros'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/config) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/config) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/config) by extension 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/config) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/config) by extension 'python_setup_py'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker) by extension 'ros'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker) by extension 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker) by extension 'python_setup_py'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/gazebo) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/gazebo) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/gazebo) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/gazebo) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/gazebo) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/gazebo) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/gazebo) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/gazebo) by extension 'ros'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/gazebo) by extensions ['cmake', 'python']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/gazebo) by extension 'cmake'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/gazebo) by extension 'python'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/gazebo) by extensions ['python_setup_py']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/gazebo) by extension 'python_setup_py'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/robot) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/robot) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/robot) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/robot) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/robot) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/robot) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/robot) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/robot) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/robot) by extension 'ros'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/robot) by extensions ['cmake', 'python']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/robot) by extension 'cmake'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/robot) by extension 'python'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/robot) by extensions ['python_setup_py']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/robot) by extension 'python_setup_py'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/samples) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/samples) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/samples) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/samples) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/samples) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/samples) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/samples) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/samples) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/samples) by extension 'ros'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/samples) by extensions ['cmake', 'python']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/samples) by extension 'cmake'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/samples) by extension 'python'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/samples) by extensions ['python_setup_py']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/samples) by extension 'python_setup_py'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/vis_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/vis_tools) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/vis_tools) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/vis_tools) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/vis_tools) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/vis_tools) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/vis_tools) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/vis_tools) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/vis_tools) by extension 'ros'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/vis_tools) by extensions ['cmake', 'python']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/vis_tools) by extension 'cmake'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/vis_tools) by extension 'python'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/vis_tools) by extensions ['python_setup_py']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/docker/vis_tools) by extension 'python_setup_py'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/log) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/log) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/log) ignored
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/modules) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/modules) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/modules) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/modules) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/modules) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/modules) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/modules) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/modules) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/modules) by extension 'ros'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/modules) by extensions ['cmake', 'python']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/modules) by extension 'cmake'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/modules) by extension 'python'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/modules) by extensions ['python_setup_py']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/modules) by extension 'python_setup_py'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src) by extension 'ros'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src) by extensions ['cmake', 'python']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src) by extension 'cmake'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src) by extension 'python'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src) by extensions ['python_setup_py']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src) by extension 'python_setup_py'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/gazebo) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/gazebo) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/gazebo) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/gazebo) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/gazebo) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/gazebo) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/gazebo) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/gazebo) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package '/home/muhtasim/ros2_ws/wato_asd_training/src/gazebo' with type 'ros.ament_cmake' and name 'gazebo'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/bringup_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/bringup_robot) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/bringup_robot) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/bringup_robot) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/bringup_robot) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/bringup_robot) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/bringup_robot) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/bringup_robot) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/bringup_robot) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package '/home/muhtasim/ros2_ws/wato_asd_training/src/robot/bringup_robot' with type 'ros.ament_cmake' and name 'bringup_robot'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/control) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/control) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/control) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/control) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/control) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/control) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/control) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/control) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/control) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package '/home/muhtasim/ros2_ws/wato_asd_training/src/robot/control' with type 'ros.ament_cmake' and name 'control'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/costmap) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/costmap) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/costmap) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/costmap) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/costmap) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/costmap) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/costmap) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/costmap) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/costmap) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package '/home/muhtasim/ros2_ws/wato_asd_training/src/robot/costmap' with type 'ros.ament_cmake' and name 'costmap'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/map_memory) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/map_memory) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/map_memory) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/map_memory) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/map_memory) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/map_memory) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/map_memory) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/map_memory) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/map_memory) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package '/home/muhtasim/ros2_ws/wato_asd_training/src/robot/map_memory' with type 'ros.ament_cmake' and name 'map_memory'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/odometry_spoof) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/odometry_spoof) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/odometry_spoof) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/odometry_spoof) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/odometry_spoof) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/odometry_spoof) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/odometry_spoof) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/odometry_spoof) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/odometry_spoof) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package '/home/muhtasim/ros2_ws/wato_asd_training/src/robot/odometry_spoof' with type 'ros.ament_cmake' and name 'odometry_spoof'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/planner) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/planner) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/planner) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/planner) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/planner) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/planner) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/planner) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/planner) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/robot/planner) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package '/home/muhtasim/ros2_ws/wato_asd_training/src/robot/planner' with type 'ros.ament_cmake' and name 'planner'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples) by extension 'ros'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples) by extensions ['cmake', 'python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples) by extension 'cmake'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp) by extension 'ros'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp) by extensions ['cmake', 'python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp) by extension 'cmake'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/aggregator) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/aggregator) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/aggregator) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/aggregator) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/aggregator) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/aggregator) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/aggregator) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/aggregator) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/aggregator) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package '/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/aggregator' with type 'ros.ament_cmake' and name 'aggregator'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/producer) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/producer) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/producer) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/producer) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/producer) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/producer) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/producer) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/producer) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/producer) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package '/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/producer' with type 'ros.ament_cmake' and name 'producer'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/transformer) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/transformer) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/transformer) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/transformer) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/transformer) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/transformer) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/transformer) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/transformer) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/transformer) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package '/home/muhtasim/ros2_ws/wato_asd_training/src/samples/cpp/transformer' with type 'ros.ament_cmake' and name 'transformer'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/aggregator) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/aggregator) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/aggregator) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/aggregator) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/aggregator) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/aggregator) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/aggregator) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/aggregator) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/aggregator) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package '/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/aggregator' with type 'ros.ament_python' and name 'aggregator'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/producer) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/producer) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/producer) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/producer) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/producer) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/producer) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/producer) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/producer) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/producer) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package '/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/producer' with type 'ros.ament_python' and name 'producer'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/transformer) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/transformer) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/transformer) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/transformer) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/transformer) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/transformer) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/transformer) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/transformer) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/transformer) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package '/home/muhtasim/ros2_ws/wato_asd_training/src/samples/python/transformer' with type 'ros.ament_python' and name 'transformer'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/sample_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/sample_msgs) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/sample_msgs) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/sample_msgs) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/sample_msgs) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/sample_msgs) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/sample_msgs) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/sample_msgs) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/samples/sample_msgs) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package '/home/muhtasim/ros2_ws/wato_asd_training/src/samples/sample_msgs' with type 'ros.ament_cmake' and name 'sample_msgs'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs/sample_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs/sample_msgs) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs/sample_msgs) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs/sample_msgs) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs/sample_msgs) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs/sample_msgs) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs/sample_msgs) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs/sample_msgs) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs/sample_msgs) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package '/home/muhtasim/ros2_ws/wato_asd_training/src/wato_msgs/sample_msgs' with type 'ros.ament_cmake' and name 'sample_msgs'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/watod_scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/watod_scripts) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/watod_scripts) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/watod_scripts) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/watod_scripts) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/watod_scripts) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/watod_scripts) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/watod_scripts) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/watod_scripts) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/watod_scripts) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/watod_scripts) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/watod_scripts) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/watod_scripts) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muhtasim/ros2_ws/wato_asd_training/watod_scripts) by extension 'python_setup_py'
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
